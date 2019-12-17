@@ -1,21 +1,12 @@
-# Add project specific ProGuard rules here.
-# You can control the set of applied configuration files using the
-# proguardFiles setting in build.gradle.
-#
-# For more details, see
-#   http://developer.android.com/guide/developing/tools/proguard.html
 
-# If your project uses WebView with JS, uncomment the following
-# and specify the fully qualified class name to the JavaScript interface
-# class:
-#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
-#   public *;
-#}
 
-# Uncomment this to preserve the line number information for
-# debugging stack traces.
-#-keepattributes SourceFile,LineNumberTable
+# json 对应的实体类不混淆
+-keep class com.sendinfo.leshan.platform.entitys.response.** {*;}
+-keep class com.base.library.entitys.** {*;}
 
-# If you keep the line number information, uncomment this to
-# hide the original source file name.
-#-renamesourcefileattribute SourceFile
+#Android4.2以上 WebView 需要添加以下的两个混淆配置
+-keepattributes *Annotation*
+-keepattributes *JavascriptInterface*
+-keepclassmembers class packageName$内部类名 {
+    public *;
+}
