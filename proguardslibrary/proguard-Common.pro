@@ -21,6 +21,8 @@
 -verbose
 -printmapping priguardMapping.txt
 
+# 重命名抛出异常时的文件名称
+-renamesourcefileattribute SourceFile
 # 抛出异常时保留代码行号
 -keepattributes SourceFile,LineNumberTable
 
