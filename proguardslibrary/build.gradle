@@ -15,7 +15,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    //consumerProguardFiles 来传递 aar 中的防混淆配置到主工程中，所以依赖了该库后常用的主流三方库便不再需要手动配置了
+    //consumerProguardFiles传递 aar 中的混淆配置到主工程中，依赖了该库后常用的主流三方库便不再需要手动配置了
     buildTypes {
         debug {
             consumerProguardFiles file('.').listFiles(new FilenameFilter() {
