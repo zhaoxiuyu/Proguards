@@ -105,3 +105,40 @@ allprojects {
 2. 混淆通过分析字节码，去掉冗余代码，再加上缩短了变量、函数、类的名称，可以进一步缩减应用大小。
 3. 如果想混淆资源文件，可以使用微信的 [AndResGuard](https://github.com/shwenzhang/AndResGuard)
 
+
+
+
+---
+
+#### 其他常用库
+```
+------- 自带混淆配置的库 -------
+SmartRefreshLayout
+rxhttp
+utilcodex
+lottie
+transformations
+BaseRecyclerViewAdapterHelper
+banner
+bga-qrcode-zxing
+```
+
+```
+------- 可混淆,不用配置 -------
+rippleeffect
+PickerView
+bottom-navigation
+switch-button
+flexibledivider
+```
+
+```
+------- 没有找到 -------
+ShadowLayout
+smart-swipe
+PinnedSectionItemDecoration
+FlexItemDecoration
+AndPermission
+```
+
+
