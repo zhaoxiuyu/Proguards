@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/zhaoxiuyu/Proguards.svg)](https://jitpack.io/#zhaoxiuyu/Proguards)
+[![](https://www.jitpack.io/v/zhaoxiuyu/Proguards.svg)](https://www.jitpack.io/#zhaoxiuyu/Proguards)
 
 1.平常项目中用到很多第三方库，就把用到的混淆配置累计到这里面了，方便以后使用。
 
