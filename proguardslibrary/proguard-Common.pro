@@ -17,7 +17,7 @@
 -dontpreverify
 
 # 有了verbose这句话，混淆后就会生成映射文件,包含有类名->混淆后类名的映射关系
-# 然后使用printmapping指定映射文件的名称
+# 然后使用printmapping指定混淆前后的映射文件名称
 -verbose
 -printmapping priguardMapping.txt
 
