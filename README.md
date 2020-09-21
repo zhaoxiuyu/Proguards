@@ -1,8 +1,12 @@
-# Proguards
-
 [![](https://jitpack.io/v/zhaoxiuyu/Proguards.svg)](https://jitpack.io/#zhaoxiuyu/Proguards)
 
-自己常用的混淆规则
+
+平常项目中用到很多第三方库，就把用到的混淆配置累计到这里面了，方便以后使用。
+利用了consumerProguardFiles 来传递 aar 中的防混淆配置到主工程中，依赖该库之后，就不需要在手动配置了。
+
+已配置的防混淆文件如下：
+
+
 
 Add it in your root build.gradle at the end of repositories:
 
