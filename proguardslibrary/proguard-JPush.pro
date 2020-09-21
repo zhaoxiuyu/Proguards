@@ -1,6 +1,6 @@
 # https://docs.jiguang.cn/jpush/client/Android/android_guide/
-#-dontoptimize
-#-dontpreverify
+-dontoptimize
+-dontpreverify
 
 -dontwarn cn.jpush.**
 -keep class cn.jpush.** { *; }
@@ -11,5 +11,5 @@
 
 #==================gson && protobuf==========================
 -dontwarn com.google.**
--keep class com.google.gson.** { *; }
--keep class com.google.protobuf.** { *; }
+-keep class com.google.gson.** {*;}
+-keep class com.google.protobuf.** {*;}

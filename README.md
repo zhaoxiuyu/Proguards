@@ -1,37 +1,38 @@
 [![](https://jitpack.io/v/zhaoxiuyu/Proguards.svg)](https://jitpack.io/#zhaoxiuyu/Proguards)
 
-
 1.平常项目中用到很多第三方库，就把用到的混淆配置累计到这里面了，方便以后使用。
 
 2.利用consumerProguardFiles 来传递 aar 中的防混淆配置到主工程中，依赖该库后常用的主流三方库不再需要手动配置了,已经添加的混淆文件可以查看工程，以后会继续添加完善。
 
 #### 已配置的防混文件如下：
 
+[混淆配置说明](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-rules.pro)
+
+[Common通用配置](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Common.pro)
+
 [ARouter](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-ARouter.pro)
 -> [该库地址](https://github.com/alibaba/ARouter)
 
 [BaiduMap](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-BaiduMap.pro)
--> [该库地址*]() -> 需防混 jar(-libraryjars libs/baidumapapi_v2_1_2.jar)
+-> [该库地址](http://lbsyun.baidu.com/index.php?title=androidsdk/guide/create-project/androidstudio)
 
 [Banner](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Banner.pro)
 -> [该库地址](https://github.com/youth5201314/banner)
 
 [Bugly](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Bugly.pro)
--> [该库地址*]()
-
-[Common通用配置](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Common.pro)
+-> [该库地址](https://bugly.qq.com/docs/user-guide/instruction-manual-android-upgrade/?v=20200622202242)
 
 [EventBus](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-EventBus.pro)
--> [该库地址*]()
+-> [该库地址](https://github.com/greenrobot/EventBus)
 
 [GaoDeMap](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-GaoDeMap.pro)
--> [该库地址*]()
+-> [该库地址](https://lbs.amap.com/api/android-sdk/guide/create-project/dev-attention#obfuscated-code)
 
 [Glide](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Glide.pro)
 -> [该库地址](https://github.com/bumptech/glide)
 
 [GreenDAO](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-GreenDAO.pro)
--> [该库地址*]()
+-> [该库地址](https://github.com/greenrobot/greenDAO)
 
 [Gson](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Gson.pro)
 -> [该库地址](https://github.com/google/gson)
@@ -41,29 +42,25 @@
 
 [Immersionbar](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Immersionbar.pro) -> [该库地址](https://github.com/gyf-dev/ImmersionBar)
 
-[JPush](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-JPush.pro) -> [该库地址*]()
+[JPush](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-JPush.pro) -> [该库地址](https://docs.jiguang.cn/jpush/client/Android/android_guide/#jpush-android-sdk)
 
-[OkHttp](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-OkHttp.pro) -> [该库地址*]()
+[OkHttp](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-OkHttp.pro) -> [该库地址](https://github.com/square/okhttp)
 
-[Retrofit](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Retrofit.pro) -> [该库地址*]()
+[Retrofit](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Retrofit.pro) -> [该库地址](https://github.com/square/retrofit)
 
-[RxJava](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-RxJava.pro) -> [该库地址*]()
+[RxJava](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-RxJava.pro) -> [该库地址](https://github.com/ReactiveX/RxJava)
 
-[ShareSDK](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-ShareSDK.pro) -> [该库地址*]()
+[ShareSDK](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-ShareSDK.pro) -> [该库地址](https://www.mob.com/wiki/detailed/?wiki=ShareSDK_Others_Share_Confused&id=undefined)
 
-[Tencent](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Tencent.pro) -> [该库地址*]()
+[Tencent](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Tencent.pro)
 
-[UMeng](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-UMeng.pro) -> [该库地址*]()
+[UMeng](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-UMeng.pro) -> [该库地址](https://developer.umeng.com/docs/66632/detail/66639)
 
-[X5](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-X5.pro) -> [该库地址*]()
+[X5](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-X5.pro) -> [该库地址](https://x5.tencent.com/docs/access.html#13-%E6%B7%B7%E6%B7%86%E9%85%8D%E7%BD%AE)
 
-[XPopup](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-XPopup.pro) -> [该库地址*]()
+[XPopup](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-XPopup.pro) -> [该库地址](https://github.com/li-xiaojun/XPopup)
 
-[ZXing](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-ZXing.pro) -> [该库地址*]()
-
-[ZXing](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-ZXing.pro) -> [该库地址*]()
-
-[说明](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-rules.pro) -> [该库地址*]()
+[ZXing](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-ZXing.pro)
 
 #### 使用说明：
 ```
