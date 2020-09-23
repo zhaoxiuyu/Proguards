@@ -43,8 +43,6 @@ allprojects {
 我会不定时更新 和 累加以上混淆配置。
 ```
 
-[URL](https://github.com/daimajia/AndroidViewAnimations)
-
 #### 已配置的防混文件：
 
 配置文件 | 地址 | 说明
