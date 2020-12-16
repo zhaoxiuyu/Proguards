@@ -80,7 +80,7 @@ allprojects {
 [XPopup](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-XPopup.pro) | [URL](https://github.com/li-xiaojun/XPopup) | ..
 [ZXing](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-ZXing.pro) | [URL](https://github.com/zxing/zxing) | ..
 .. | .. | ..
-[viewbinding](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-viewbinding.pro) | [URL]() | ..
+[viewbinding](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-viewbinding.pro) | .. | ..
 .. | .. | ..
 
 
