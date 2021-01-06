@@ -45,43 +45,46 @@ allprojects {
 
 #### 已配置的防混文件：
 
-配置文件 | 地址 | 说明
----|---|---
-[混淆配置说明](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-rules.pro) | .. | ..
-[Common通用配置](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Common.pro) | .. | ..
-[ARouter](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-ARouter.pro) | [URL](https://github.com/alibaba/ARouter) | ..
-[AliPay](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-AliPay.pro) | [URL](https://opendocs.alipay.com/open/59/103683/) | 需防混 jar
-[Androidanimations](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Androidanimations.pro) | [URL](https://github.com/daimajia/AndroidViewAnimations) | View动画效果集合
-[BaiduMap](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-BaiduMap.pro) | [URL](http://lbsyun.baidu.com/index.php?title=androidsdk/guide/create-project/androidstudio) | 需防混 jar
-[Banner](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Banner.pro) | [URL](https://github.com/youth5201314/banner) | ..
-[Bugly](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Bugly.pro) | [URL](https://bugly.qq.com/docs/user-guide/instruction-manual-android-upgrade/?v=20200622202242) | ..
-[CalendarView](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-CalendarView.pro#L3) | [URL](https://github.com/huanghaibin-dev/CalendarView) | ..
-[Easing](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Easing.pro#L2) | [URL](https://github.com/daimajia/AnimationEasingFunctions) | 该库被Androidanimations依赖
-[EventBus](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-EventBus.pro) | [URL](https://github.com/greenrobot/EventBus) | ..
-[GaoDeMap](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-GaoDeMap.pro) | [URL](https://lbs.amap.com/api/android-sdk/guide/create-project/dev-attention#obfuscated-code) | ..
-[Glide](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Glide.pro) | [URL](https://github.com/bumptech/glide) | ..
-[GreenDAO](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-GreenDAO.pro) | [URL](https://github.com/greenrobot/greenDAO) | ..
-[Gson](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Gson.pro) | [URL](https://github.com/google/gson) | ..
-[Ijkplayer](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Ijkplayer.pro) | [URL](https://travis-ci.org/Bilibili/ci-ijk-ffmpeg-android) | ..
-[Immersionbar](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Immersionbar.pro) | [URL](https://github.com/gyf-dev/ImmersionBar) | ..
-[JPush](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-JPush.pro) | [URL](https://docs.jiguang.cn/jpush/client/Android/android_guide/#jpush-android-sdk) | ..
-[LitePal](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-LitePal.pro#L6) | [URL](https://github.com/guolindev/LitePal) | ..
-[MMKV](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-MMKV.pro) | [URL](https://github.com/Tencent/MMKV) | ..
-[OkHttp](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-OkHttp.pro) | [URL](https://github.com/square/okhttp) | ..
-[Retrofit](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Retrofit.pro) | [URL](https://github.com/square/retrofit) | ..
-[RxJava](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-RxJava.pro) | [URL](https://github.com/ReactiveX/RxJava) | ..
-[RxLife](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-RxLife.pro) | [URL](https://github.com/liujingxing/rxjava-RxLife) | ..
-[ShareSDK](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-ShareSDK.pro) | [URL](https://www.mob.com/wiki/detailed/?wiki=ShareSDK_Others_Share_Confused&id=undefined) | ..
-[SuperTextView](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-SuperTextView.pro) | [URL](https://github.com/chenBingX/SuperTextView) | ..
-[Tencent](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Tencent.pro) | .. |配置里面有连接可以查看
-[UMeng](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-UMeng.pro) | [URL](https://developer.umeng.com/docs/66632/detail/66639) | ..
-[ViewAnimator](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-ViewAnimator.pro) | [URL](https://github.com/florent37/ViewAnimator) | ..
-[X5](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-X5.pro) | [URL](https://x5.tencent.com/docs/access.html#13-%E6%B7%B7%E6%B7%86%E9%85%8D%E7%BD%AE) | ..
-[XPopup](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-XPopup.pro) | [URL](https://github.com/li-xiaojun/XPopup) | ..
-[ZXing](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-ZXing.pro) | [URL](https://github.com/zxing/zxing) | ..
-.. | .. | ..
-[viewbinding](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-viewbinding.pro) | .. | ..
-.. | .. | ..
+配置文件 | 地址
+---|---
+[混淆配置说明](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-rules.pro) | ..
+[Common通用配置](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Common.pro) | ..
+[ARouter - 路由](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-ARouter.pro) | ..
+[AliPay - 支付宝](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-AliPay.pro) |需防混 jar
+[Androidanimations - 动画](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Androidanimations.pro) |..
+[BaiduMap - 百度地图](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-BaiduMap.pro) |需防混 jar
+[Banner - 轮播图](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Banner.pro) | ..
+[Bugly](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Bugly.pro) | ..
+[CalendarView - 日历](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-CalendarView.pro#L3) | ..
+[Easing](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Easing.pro#L2) | 该库被Androidanimations依赖
+[EventBus](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-EventBus.pro) |..
+[GaoDeMap - 高德地图](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-GaoDeMap.pro) | ..
+[Glide - 图片加载](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Glide.pro) | ..
+[GreenDAO - 数据库](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-GreenDAO.pro) | ..
+[Gson](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Gson.pro) | ..
+[Ijkplayer](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Ijkplayer.pro) | ..
+[Immersionbar - 沉浸式](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Immersionbar.pro) | ..
+[JPush - 极光推送](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-JPush.pro) | ..
+[XiaoMiPush - 小米推送](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-XiaoMiPush.pro) | ..
+[VivoPush - vivo推送](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-VivoPush.pro)     | ..
+[MeiZuPush - 魅族推送](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-MeiZuPush.pro)|  ..
+[HuaWeiPush - 华为推送](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-HuaWeiPush.pro) | ..
+[OPPOPush - oppo推送](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-OPPOPush.pro) | ..
+[LitePal - 数据库](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-LitePal.pro#L6) |..
+[MMKV](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-MMKV.pro) |..
+[OkHttp](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-OkHttp.pro) |..
+[Retrofit](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Retrofit.pro) |..
+[RxJava](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-RxJava.pro) | ..
+[RxLife - 解决RxJava内存泄漏](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-RxLife.pro) |..
+[ShareSDK](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-ShareSDK.pro) |..
+[SuperTextView](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-SuperTextView.pro) |..
+[Tencent - 腾讯相关](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Tencent.pro) | ..
+[UMeng - 友盟相关](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-UMeng.pro) | ..
+[ViewAnimator -  View动画](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-ViewAnimator.pro) | 这个不需要混淆配置,如果出问题可以把这个加上
+[X5 - 浏览器](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-X5.pro) | ..
+[XPopup - 弹窗](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-XPopup.pro) | ..
+[ZXing - 二维码](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-ZXing.pro) | ..
+.. | ..
 
 
 #### 混淆说明 : 

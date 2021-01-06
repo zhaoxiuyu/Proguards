@@ -1,3 +1,4 @@
+# https://github.com/youth5201314/banner
 # banner 轮播图
 -dontwarn androidx.viewpager2.**
 -keep class androidx.viewpager2.** {*;}
