@@ -73,6 +73,7 @@ allprojects {
 [LitePal - 数据库](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-LitePal.pro#L6) |..
 [MMKV](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-MMKV.pro) |..
 [OkHttp](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-OkHttp.pro) |..
+[Coroutines - 协程](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Coroutines.pro) |..
 [Retrofit](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-Retrofit.pro) |..
 [RxJava](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-RxJava.pro) | ..
 [RxLife - 解决RxJava内存泄漏](https://github.com/zhaoxiuyu/Proguards/blob/master/proguardslibrary/proguard-RxLife.pro) |..
